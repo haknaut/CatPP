@@ -1,0 +1,30 @@
+# CatPP .gitignore
+
+# Compiled binaries and objects
+*.exe
+*.o
+*.obj
+*.new
+*.old
+*.pdb
+*.ilk
+
+# Specific build artifacts
+CatPP.exe
+CatPP_dbg.exe
+CatPP_test.exe
+app.o
+
+# Local compiler paths & developer configuration
+gpp_path.txt
+CatPP_gpp_path.txt
+
+# Editor / IDE metadata
+.vscode/
+.vs/
+.freebuff/
+*.log
+
+# Windows thumbnail and directory artifacts
+Thumbs.db
+Desktop.ini
