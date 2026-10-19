@@ -6,10 +6,17 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/haknaut/CatPP/releases/latest"><img src="https://img.shields.io/github/v/release/haknaut/CatPP?style=for-the-badge&color=blue" alt="Release" /></a>
   <img src="https://img.shields.io/badge/Language-C%2B%2B17-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++17" />
   <img src="https://img.shields.io/badge/Platform-Windows%20x64-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" />
   <img src="https://img.shields.io/badge/Framework-Win32%20%7C%20GDI%2B-5C2D91?style=for-the-badge" alt="Win32 & GDI+" />
   <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge" alt="License" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/haknaut/CatPP/releases/latest/download/CatPP.exe">
+    <img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F_Download-CatPP.exe_(Standalone)-brightgreen?style=for-the-badge" alt="Download CatPP.exe" />
+  </a>
 </p>
 
 ---
