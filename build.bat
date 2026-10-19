@@ -35,7 +35,7 @@ if not exist "app.o" (
 )
 
 echo [build] compiling %SRC% -^> %OUT% ...
-"%GPP%" -std=c++17 -O2 -municode -mwindows %SRC% app.o -lgdiplus -lwinmm -ldwmapi -lole32 -luuid -o "%OUT%.new"
+"%GPP%" -std=c++17 -O2 -municode -mwindows -static -static-libgcc -static-libstdc++ %SRC% app.o -lgdiplus -lwinmm -ldwmapi -lole32 -luuid -o "%OUT%.new"
 if errorlevel 1 (
   echo [build] compile FAILED
   if exist "%OUT%.new" del /q "%OUT%.new" >nul 2>&1
